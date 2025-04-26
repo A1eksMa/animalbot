@@ -19,7 +19,7 @@ def generate_QA(
     qualities_category = "_".join([category, "qualities"])
     animals_category = "_".join([category, "animals"])
     print("Qualities category:", qualities_category)
-    print("Animals category:", animals_category)
+    print("Animals category:", qualities_category)
 
     for prompt in prompts:
         ai_conf["MESSAGES"].append({'role' : 'user', 'content' : prompt})
